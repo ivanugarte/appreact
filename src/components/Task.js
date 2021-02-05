@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Task extends Component {
   render() {
     const {task} = this.props;
-    const redColor = {background:'red'};
+    const redColor = {background:'green'};
     return <div style={redColor}>
        {task.id} 
        {task.title}
